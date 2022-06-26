@@ -16,7 +16,6 @@ function App() {
       <CTA />
       <Blog />
       <Footer />
-      Hey guys
     </div>
   );
 }
