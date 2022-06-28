@@ -50,12 +50,44 @@
         font-size: 14px;
         line-height: 22px;
     }
-    .gpt3__features-container__feature-title p{
+    .gpt3__features-container__feature-text p{
         font-size: 12px;
         line-height: 20px;
     }
     .gpt3__features-container__feature{
         margin: 1rem 0;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    .gpt3__features-container__feature-title h1{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 0.5rem;
+    }
+    .gpt3__features-container__feature-text p{
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 80%;
+    }
+
+    /* .gpt3__features-container__feature-text{
+        max-width: 50%;
+    } */
+    .gpt3__features-container__feature{
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width:350) {
+
+    .gpt3__features-container__feature-text p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .gpt3__features-container__feature-text{
+        max-width: 70%;
     }
 }
 
