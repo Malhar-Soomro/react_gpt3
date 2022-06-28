@@ -71,10 +71,7 @@
         line-height: 20px;
         max-width: 80%;
     }
-
-    /* .gpt3__features-container__feature-text{
-        max-width: 50%;
-    } */
+    
     .gpt3__features-container__feature{
         margin: 0 0;
     }
